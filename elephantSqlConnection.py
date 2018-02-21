@@ -2,9 +2,6 @@ import psycopg2
 
 class elephant:
 
-
-
-
     def connect(self):
         self.conn = psycopg2.connect("postgres://nttxacmw:Y6vWv0KDbMEzuzJ9GYDRveSzIjEpe_3f@baasu.db.elephantsql.com:5432/nttxacmw")
         self.cur = self.conn.cursor()
